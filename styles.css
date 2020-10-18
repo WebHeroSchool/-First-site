@@ -24,14 +24,14 @@ body {
 .logo {
   position: relative;
   padding: 40px 0;
-  padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  padding-left: 48px;
+  font: bold 24px/32px pt_serifbold;
 }
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%
-  transform: translateY(-50%);
+  left: 5px;
+  top: 50%;
+  transform: translateY(-52%);
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -41,8 +41,8 @@ body {
     background: #0056ec
   }
   .logo__circle_color_blue {
-  left: 8px;
-  top: 42%;
+  left: 12px;
+  top: 55%;
   background: #c8dbfb;
   }
 .menu {
