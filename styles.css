@@ -17,9 +17,6 @@ body {
 .logo, .menu {
   display: inline-block;
 }
-.logo {
-  margin-right: 63%;
-}
 .header {
   display: flex;
   justify-content: space-between;
