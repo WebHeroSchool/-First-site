@@ -134,46 +134,49 @@
     margin-left: 80px;
     margin-top: 4px;
   }
+
   .logo {
     margin-top: -2px;
     font: bold 23px/32px pt_serifbold;
   }
+
   .logo__circle {
-    margin-left: 2px;
+    margin-left: -1px;
     margin-top: 1px;
-    margin-left: -3px;
   }
+
   .menu__item {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
+
   .menu__item:last-child {
     margin-right: 80px;
   }
+
   .main {
     margin-top: -70px;
     padding: 10px 25% 161px 130px;
     background-size: 47.7%;
     background-position-x: 490px;
     background-position-y: 24px;
-    }
+  }
 
   .main__title {
       margin: 31px 133px 100px -55px;
       font: 50px/66px pt_serifbold, arial, helvetica, sans-serif;
-    }
-
+  }
 
   .main__subtitle {
       margin: -63px 51% 41px -55px;
       font:500 18px/21px Roboto, arial, helvetica, sans-serif;
-    }
+  }
 
   .main__button {
       margin-left: -54px;
       padding: 16px 28px 14px 15px;;
       font: 14px/15px Roboto, arial, helvetica, sans-serif;
-      }
   }
+}
 
 @media (max-width: 1024px) {
   .header {
@@ -256,7 +259,7 @@
   }
 
   .main__button {
-  margin-left: -64px;
+    margin-left: -64px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
