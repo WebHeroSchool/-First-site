@@ -2,20 +2,24 @@
   margin: auto;
   width: 80.3%;
 }
+
 .logo,.menu {
   display: inline-block;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 138px;
 }
+
 .logo {
   position: relative;
   padding: 31px 0;
   padding-left: 44px;
   font: 24px/31.8px pt_serifbold;
 }
+
 .logo__circle {
   position: absolute;
   left: -1px;
@@ -26,14 +30,17 @@
   border-radius: 50%;
   opacity: .7;
 }
+
 .logo__circle_color_dark-blue{
   background: #0056ec;
 }
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #c8dbfb;
 }
+
 .menu {
   display: flex;
   align-items: center;
@@ -42,6 +49,7 @@
 #menu__toggle {
   opacity: 0;
 }
+
 .menu__item {
   position: relative;
   top: 4px;
@@ -157,7 +165,7 @@
   .menu__item:last-child {
     margin-right: 81px;
   }
-  
+
   .menu__item_activ::after {
     top: 15px;
   }
