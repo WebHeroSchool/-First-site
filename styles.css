@@ -157,6 +157,7 @@
   .menu__item:last-child {
     margin-right: 81px;
   }
+  
   .menu__item_activ::after {
     top: 15px;
   }
