@@ -15,8 +15,7 @@
 
 .logo {
   position: relative;
-  padding: 31px 0;
-  padding-left: 44px;
+  padding: 31px 0 31px 44px;
   font: 24px/31.8px pt_serifbold;
   animation: logo .3s infinite ease-in-out;
 }
@@ -117,8 +116,7 @@
 .main {
   padding: 75px 65% 150px 1px;
   background: top right no-repeat url(img/mainlmg.svg);
-  background-position-x: 756px;
-  background-position-y: 2px;
+  background-position: 756px 2px;
 }
 
 .main__title {
@@ -181,8 +179,7 @@
     margin-top: -70px;
     padding: 10px 30% 161px 135px;
     background-size: 47.5%;
-    background-position-x: 493px;
-    background-position-y: 25px;
+    background-position: 493px 25px;
   }
 
   .main__title {
@@ -228,8 +225,7 @@
   .main {
     padding: 11px 30% 161px 70.5px;
     background-size: 53.6%;
-    background-position-x: 431px;
-    background-position-y: 26px;
+    background-position: 431px 26px;
   }
 
   .main__title {
