@@ -114,8 +114,9 @@
 }
 
 .main {
-  padding: 75px 65% 150px 1px;
+  padding: 4.9% 55% 150px 1px;
   background: top right no-repeat url(img/mainlmg.svg);
+  background-size: 50.5%;
   background-position: 100% 2px;
 }
 
