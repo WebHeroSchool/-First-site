@@ -15,9 +15,15 @@
 
 .logo {
   position: relative;
-  padding: 31px 0;
-  padding-left: 44px;
+  padding: 31px 0 31px 44px;
   font: 24px/31.8px pt_serifbold;
+  animation: logo .3s infinite ease-in-out;
+}
+
+@keyframes logo {
+  to {
+    color: red;
+  }
 }
 
 .logo__circle {
@@ -108,10 +114,10 @@
 }
 
 .main {
-  padding: 75px 65% 150px 1px;
+  padding: 4.9% 55% 150px 1px;
   background: top right no-repeat url(img/mainlmg.svg);
-  background-position-x: 756px;
-  background-position-y: 2px;
+  background-size: 50.5%;
+  background-position: 100% 2px;
 }
 
 .main__title {
@@ -174,8 +180,7 @@
     margin-top: -70px;
     padding: 10px 30% 161px 135px;
     background-size: 47.5%;
-    background-position-x: 493px;
-    background-position-y: 25px;
+    background-position: 86.5% 24px;
   }
 
   .main__title {
@@ -221,8 +226,7 @@
   .main {
     padding: 11px 30% 161px 70.5px;
     background-size: 53.6%;
-    background-position-x: 431px;
-    background-position-y: 26px;
+    background-position: 97% 27px;
   }
 
   .main__title {
@@ -297,6 +301,7 @@
     width: 100%;
     height: 2px;
     background-color: #0056ec;
+    transition-duration: .25s;
   }
 
   .menu__btn > span::before {
@@ -323,6 +328,7 @@
     text-align: center;
     background-color: #fff;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
   }
 
   .menu__item {
@@ -336,6 +342,7 @@
     line-height: 35px;
     font-weight: 500;
     text-decoration: none;
+    transition-duration: .25s;
   }
 
   .menu__item:last-child {

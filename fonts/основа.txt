@@ -1,0 +1,7 @@
+.main {
+   text-align: center;
+   padding: 80% 0 0;
+   background-size: 79.5%;
+   background-position-x: 4px;
+   background-position-y: 0;
+ }
